@@ -1,0 +1,48 @@
+.about-us-container{display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+.team-members{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-description{
+    flex: 1;
+    text-align: left;
+}
+.about-us-heading{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.team-members h2{
+    text-align: left;
+}
+.about-us-description p{
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--heading-color);
+
+}
+.member-card{
+ 
+    margin-bottom: 20px;
+}
+.member-name{
+    font-size: 18px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.member-role{
+    font-size: 19px;
+    color: #888;
+}
+.member-card img{
+    width: 300px;
+    height: 300px;
+}
