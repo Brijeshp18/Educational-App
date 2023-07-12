@@ -47,3 +47,30 @@ justify-content: space-between;
 .nav_item:hover{
    color: var(--primary-color); 
 }
+
+
+.leftside .hiddenlink{display: none;}
+   
+@media only screen and (max-width: 571px) {
+    .header{
+        width: 100%;
+        height: 30px;
+        line-height: 20px;
+    }
+    
+.logo-image{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 5px;
+  
+}
+h2{
+    margin-left: 10px;
+}
+
+    
+  }
+
+
+  
