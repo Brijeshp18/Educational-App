@@ -20,9 +20,9 @@ const nav_titles =[
      <div className='nav_container'>
       <div className='logo'>
         <div className='logo-image'>
-            <img  src={Logo} alt='logo'/>
+        
         </div>
-        <Link to='/'><h2>Techflix AI</h2></Link>
+        <Link to='/'><h2>LEARN FREE </h2></Link>
       </div>
      
      <div className='navigation'>

@@ -14,23 +14,24 @@ section{
   padding: 50px 0px;
 
 }
+.navigation ul li{list-style-type: none;}
+
 a{
-  text-decoration: none;
+  text-decoration: none !important;
   color: unset;
+  
 }
 a:hover{
   color: unset;
 }
 link{
-  text-decoration: none;
+  text-decoration: none !important;
   color: unset;
 }
 link:hover{
   color: unset;
 }
-ul{
-  list-style: none;
-}
+
 .container{
   width: 1340px;
   padding: 0px 15px;
@@ -40,6 +41,7 @@ ul{
 .section_title{
   color: var(--heading-color);
   font-weight: 700;
+  margin-top: 10px;
 
 }
 

@@ -15,7 +15,7 @@ function Footer() {
    <div className="logo-image">
      <img src={footer} alt="" />
    </div>
-   <h2>Techflix AI</h2>
+   <h2>LEARN FREE</h2>
 
     </div>
     <p>Embrace the future of innovation and technology with our cutting-edge tech business solutions.</p>    
